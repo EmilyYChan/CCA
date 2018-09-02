@@ -481,6 +481,10 @@ section {
 	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+.col .service {
+	padding-top: 50px;
+}
+
 .service .icon-holder > img.icon {
 	width: 40px;
 }
@@ -1109,8 +1113,3 @@ footer .social-footer li:hover a {
 		padding-top: 0;
 	}
 }
-
-
-
-
-
