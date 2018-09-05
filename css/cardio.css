@@ -169,6 +169,12 @@ nav.navbar {
 	transition: all 0.3s ease;
 }
 
+nav.navbar .navbar-nav a:hover{
+	background-color: #00a8ff;
+	border-radius: 2px;
+}
+
+
 nav.navbar .navbar-nav li.active a:not(.btn) {
 	color: #00a8ff !important;
 }
@@ -186,8 +192,22 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: #bbb;
 }
 
+.navbar-name{
+	display: inline;
+}
+
+.nav-list{
+	width:100%;
+	display: flex;
+  justify-content: space-between;
+}
+
 .icon-bar {
 	background: #bbb;
+}
+
+.sign-up.btn {
+	border: 0px;
 }
 /* Buttons */
 
