@@ -710,6 +710,10 @@ footer .open-blink:before {
 	background-color: #4caf50;
 }
 
+footer .opening-hours {
+		 margin: 0;
+}
+
 footer .bottom-footer {
 	margin-top: 150px;
 }
