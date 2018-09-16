@@ -969,11 +969,23 @@ footer .social-footer li:hover a {
     margin: 20px;
 }
 
+.panel.panel-default{
+	margin: 2em 1em 2em 1em;
+}
+
 .panel:hover {
-	/* -moz-box-shadow: 0 2px 9px #00a8ff;
-	-webkit-box-shadow: 0 2px 9px #00a8ff;
-	box-shadow: 0 2px 9px #00a8ff; */
+	-moz-border-color: #00a8ff;
+	-webkit-border-color: #00a8ff;
 	border-color: #00a8ff;
+}
+
+.panel-heading {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.panel-body{
+	padding: 2em 2em;
 }
 
 /* Mobile Nav */
