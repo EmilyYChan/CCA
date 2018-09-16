@@ -94,7 +94,7 @@ jQuery(function($) {
 	});
 
 	// Pricing Box Click Event
-	$('.pricing .box-main').click(function() {
+	$('.pricing .box-main').hover(function() {
 		$('.pricing .box-main').removeClass('active');
 		$('.pricing .box-second').removeClass('active');
 		$(this).addClass('active');
@@ -152,7 +152,7 @@ jQuery(function($) {
 			bottomMargin = parseInt($dialog.css('marginBottom'), 10);
 
 		// Make sure you don't hide the top part of the modal w/ a negative margin
-		// if it's longer than the screen height, and keep the margin equal to 
+		// if it's longer than the screen height, and keep the margin equal to
 		// the bottom margin of the modal
 		if (offset < bottomMargin) offset = bottomMargin;
 		$dialog.css("margin-top", offset);
