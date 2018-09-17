@@ -1087,10 +1087,13 @@ footer .social-footer li:hover a {
 		font-size: 16px;
 	}
 	h6 {
-		font-size: 12px;
+		font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (992 - 300)));
 	}
 	.section {
 		padding: 30px 0;
+	}
+	.white.heading.intro-table{
+		font-size: 24px;
 	}
 }
 
