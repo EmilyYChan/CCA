@@ -1088,6 +1088,9 @@ footer .social-footer li:hover a {
 	}
 	h6 {
 		font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (992 - 300)));
+		font-size: -moz-calc(14px + (26 - 14) * ((100vw - 300px) / (992 - 300)));
+ 		font-size: -o-calc(14px + (26 - 14) * ((100vw - 300px) / (992 - 300)));
+ 		font-size: -webkit-calc(14px + (26 - 14) * ((100vw - 300px) / (992 - 300)));
 	}
 	.section {
 		padding: 30px 0;
