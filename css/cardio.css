@@ -312,6 +312,11 @@ section {
 	position: relative;
 }
 
+.intro-text{
+   font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
 .intro-table {
 	-webkit-background-size: cover;
 	background-size: cover;
